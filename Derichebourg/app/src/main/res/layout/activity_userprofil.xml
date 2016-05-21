@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="monarche.derichebourg.userprofil">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:src="@android:mipmap/sym_def_app_icon" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="User"
+        android:id="@+id/textView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_alignBottom="@+id/imageView2"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Début"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView4"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Défis"
+        android:id="@+id/textView5"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:visibility="visible"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date25"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#705d5d"
+        android:text="25" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date26"
+        android:background="#705d5d"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/date25"
+        android:layout_toEndOf="@+id/date25"
+        android:text="26" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date27"
+        android:background="#705d5d"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/date26"
+        android:layout_toEndOf="@+id/date26"
+        android:text="27" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date28"
+        android:background="#705d5d"
+        android:layout_alignBottom="@+id/date27"
+        android:layout_toRightOf="@+id/date27"
+        android:layout_toEndOf="@+id/date27"
+        android:text="28" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date29"
+        android:background="#705d5d"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/date28"
+        android:layout_toEndOf="@+id/date28"
+        android:text="29" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date30"
+        android:background="#705d5d"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/date29"
+        android:layout_toEndOf="@+id/date29"
+        android:text="30" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date31"
+        android:background="#705d5d"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/date30"
+        android:layout_toEndOf="@+id/date30"
+        android:text="31" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/imageView10"
+        android:background="#705d5d"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/date31"
+        android:layout_toEndOf="@+id/date31"
+        android:text="32" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date17"
+        android:background="#705d5d"
+        android:layout_above="@+id/date25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="17" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date18"
+        android:background="#705d5d"
+        android:layout_above="@+id/date25"
+        android:layout_toRightOf="@+id/date25"
+        android:layout_toEndOf="@+id/date25"
+        android:text="18" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date19"
+        android:background="#705d5d"
+        android:layout_above="@+id/date26"
+        android:layout_toRightOf="@+id/date18"
+        android:layout_toEndOf="@+id/date18"
+        android:text="19" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date20"
+        android:background="#705d5d"
+        android:layout_above="@+id/date27"
+        android:layout_toRightOf="@+id/date19"
+        android:layout_toEndOf="@+id/date19"
+        android:text="20" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date21"
+        android:background="#705d5d"
+        android:layout_above="@+id/date29"
+        android:layout_alignLeft="@+id/date29"
+        android:layout_alignStart="@+id/date29"
+        android:text="21" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:background="#705d5d"
+        android:id="@+id/date22"
+        android:layout_above="@+id/date29"
+        android:layout_toRightOf="@+id/date21"
+        android:layout_toEndOf="@+id/date21"
+        android:text="22" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date23"
+        android:background="#705d5d"
+        android:layout_above="@+id/date30"
+        android:layout_toRightOf="@+id/date22"
+        android:layout_toEndOf="@+id/date22"
+        android:text="23" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date24"
+        android:background="#705d5d"
+        android:layout_above="@+id/date31"
+        android:layout_toRightOf="@+id/date23"
+        android:layout_toEndOf="@+id/date23"
+        android:text="24" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date9"
+        android:background="#705d5d"
+        android:layout_above="@+id/date17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="9" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date10"
+        android:background="#705d5d"
+        android:layout_alignBottom="@+id/date9"
+        android:layout_toRightOf="@+id/date9"
+        android:layout_toEndOf="@+id/date9"
+        android:text="10" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date11"
+        android:background="#705d5d"
+        android:layout_alignBottom="@+id/date10"
+        android:layout_toRightOf="@+id/date10"
+        android:layout_toEndOf="@+id/date10"
+        android:text="11" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date12"
+        android:background="#705d5d"
+        android:layout_alignBottom="@+id/date11"
+        android:layout_toRightOf="@+id/date11"
+        android:layout_toEndOf="@+id/date11"
+        android:text="12" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date13"
+        android:background="#705d5d"
+        android:layout_alignBottom="@+id/date12"
+        android:layout_toRightOf="@+id/date12"
+        android:layout_toEndOf="@+id/date12"
+        android:text="13" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date14"
+        android:background="#705d5d"
+        android:layout_above="@+id/date21"
+        android:layout_toRightOf="@+id/date21"
+        android:layout_toEndOf="@+id/date21"
+        android:text="14" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date15"
+        android:background="#705d5d"
+        android:layout_alignBottom="@+id/date14"
+        android:layout_alignLeft="@+id/date23"
+        android:layout_alignStart="@+id/date23"
+        android:text="15" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date16"
+        android:background="#705d5d"
+        android:layout_alignBottom="@+id/date15"
+        android:layout_toRightOf="@+id/date15"
+        android:layout_toEndOf="@+id/date15"
+        android:text="16" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date1"
+        android:background="#705d5d"
+        android:layout_above="@+id/date9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="1" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date2"
+        android:background="#705d5d"
+        android:layout_above="@+id/date10"
+        android:layout_toRightOf="@+id/date1"
+        android:layout_toEndOf="@+id/date1"
+        android:text="2" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date3"
+        android:background="#705d5d"
+        android:layout_above="@+id/date11"
+        android:layout_toRightOf="@+id/date10"
+        android:layout_toEndOf="@+id/date10"
+        android:text="3" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date4"
+        android:background="#705d5d"
+        android:layout_above="@+id/date11"
+        android:layout_toRightOf="@+id/date11"
+        android:layout_toEndOf="@+id/date11"
+        android:text="4" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date5"
+        android:background="#705d5d"
+        android:layout_above="@+id/date12"
+        android:layout_toRightOf="@+id/date12"
+        android:layout_toEndOf="@+id/date12"
+        android:text="5" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date6"
+        android:background="#705d5d"
+        android:layout_above="@+id/date13"
+        android:layout_toRightOf="@+id/date13"
+        android:layout_toEndOf="@+id/date13"
+        android:text="6" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date7"
+        android:background="#705d5d"
+        android:layout_above="@+id/date14"
+        android:layout_toRightOf="@+id/date14"
+        android:layout_toEndOf="@+id/date14"
+        android:text="7" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:id="@+id/date8"
+        android:background="#705d5d"
+        android:layout_above="@+id/date15"
+        android:layout_toRightOf="@+id/date15"
+        android:layout_toEndOf="@+id/date15"
+        android:text="8" />
+
+</RelativeLayout>
